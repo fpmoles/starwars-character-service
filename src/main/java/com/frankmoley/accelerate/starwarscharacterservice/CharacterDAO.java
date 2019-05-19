@@ -29,7 +29,7 @@ public class CharacterDAO {
         ResultSet resultSet = session.execute(getAllStatement.getQuery());
         for(Row row:resultSet){
             SWCharacter character = new SWCharacter(
-                    row.getString("character_id"),
+                    row.getUuid("character_id"),
                     row.getString("name"),
                     row.getString("gender"),
                     row.getString("hair_color"),
