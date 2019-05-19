@@ -1,3 +1,6 @@
 *.iml
 .idea
+/target
+/src/main/resources/creds.zip
+
 
