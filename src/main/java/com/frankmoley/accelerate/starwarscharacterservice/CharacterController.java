@@ -18,7 +18,6 @@ public class CharacterController {
 
     private final CharacterDAO characterDAO;
 
-    @Autowired
     public CharacterController(CharacterDAO characterDAO){
         super();
         this.characterDAO = characterDAO;
