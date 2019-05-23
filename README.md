@@ -1,4 +1,4 @@
-#Star Wars Character Service
+# Star Wars Character Service
 
 This is the completed working demo from DataStax Accelerate 2019
 
